@@ -1,0 +1,158 @@
+* {
+	text-decoration: none;
+	outline: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+body {
+	background-color: rgb(247, 247, 247);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.outer-container {
+	/* background-color: violet; */
+	padding: 10px 10px 10px;
+	display: block;
+}
+
+.fb-container {
+	/* background-color: lightpink; */
+	/* border: 1px solid red; */
+	width: 400px;
+	display: block;
+	padding-top: 64px;
+	margin: 0 auto;
+}
+
+.fb-logo {
+	width: 300px;
+}
+
+.fb-container p {
+	padding-left: 24px;
+	font-size: 24px
+}
+
+.form-container {
+	/* background-color: lightblue; */
+	/* border: 1px solid red; */
+	width: 450px;
+	padding: 20px 20px 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.login-form {
+	padding: 15px 10px 10px;
+	border: 1px solid rgba(221, 223, 226, 0.6);
+	border-radius: 8px;
+	box-shadow: 0 0 10px 3px rgba(221, 223, 226, 0.6); 
+	text-align: center;
+	margin-bottom: 24px;
+	background-color: #fff;
+}
+
+.user-input {
+	width: 100%;
+	height: 50px;
+	display: block;
+	border: 1px solid rgba(221, 223, 226, 0.6);
+	border-radius: 5px;
+	padding: 14px 16px 14px;
+	line-height: 16px;
+	color: rgb(29, 33, 41);
+	font-size: 17px;
+	margin: 0 auto;
+}
+
+.login-btn {
+	display: block;
+	width: 380px;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 8px;
+	height: 50px;
+	background-color: rgb(24, 119, 242);
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.forgot-pass {
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+}
+
+form hr {
+	color: rgba(227, 227, 227, 0.5) ;
+	margin: 20px 0 10px;
+}
+
+.new-acc {
+	width: 250px;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 8px;
+	height: 50px;
+	background-color: rgb(66, 183, 42);
+	color: white;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 48px;
+	margin-bottom: 20px;
+}
+
+.create-page {
+	font-size: 14px;
+	font-weight: 700;
+	color: rgb(28, 30, 33);
+}
+
+section p {
+	font-size: 14px;
+	color: rgb(28, 30, 33);
+}
+
+@media only screen and (min-width: 900px){
+	.outer-container {
+		/* background-color: violet; */
+		padding: 10px 10px 10px;
+		display: flex;
+		justify-content: space-around;
+		column-gap: 67px;
+		padding-top: 120px;
+	}
+	
+	.fb-container {
+		/* background-color: lightpink; */
+		/* border: 1px solid red; */
+		width: 400px;
+		display: block;
+		margin: 0;
+		margin-left: 200px;
+		padding: 64px 0 0;
+	}
+	
+	.form-container {
+		/* background-color: lightblue; */
+		/* border: 1px solid red; */
+		width: 450px;
+		padding: 20px 20px 20px;
+		text-align: center;
+		margin: 0;
+		margin-right: 200px;
+	}
+	
+}
+
+

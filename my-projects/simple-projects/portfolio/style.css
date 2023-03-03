@@ -1,0 +1,166 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Monospace;
+}
+
+body {
+	height: 1vh;
+	background-color: rgb(70, 80, 102);
+	color: white;
+}
+
+a, ul li {
+	color: white;
+	text-decoration: none;
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: orange;
+}
+
+nav {
+	background-color: rgb(46, 53, 66);
+	padding: 10px 0 10px;
+}
+
+.left-nav {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.left-nav img {
+	height: 50px;
+}
+
+.left-nav span {
+	font-size: 2em;
+	font-weight: 700;
+	color: orange;
+}
+
+.right-nav {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.right-nav ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.right-nav ul li {
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+.profile-section {
+	background-color: rgb(61, 64, 69);
+	padding: 10px 0 10px;
+}
+
+.profile {
+	padding: 10px 10px;
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+.profile p {
+	margin-bottom: 10px;
+	font-size: 1.1em;
+}
+
+.profile h1 {
+	margin-bottom: 10px;
+	font-size: 2em;
+}
+
+.profile h2 {
+	margin-bottom: 10px;
+}
+
+.profile button {
+		width: 100px;
+		height: 30px;
+		font-weight: 600;
+	}
+	
+.profile button:hover {
+	background-color: orange;
+	color: white;
+	border-radius: 5px;
+}
+
+.profile-pic {
+	text-align: center;
+}
+
+.profile-pic img {
+	width: 100%;
+	max-width: 500px;
+}
+
+@media only screen and (min-width: 900px) {
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 10px;
+		z-index: 1;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	
+	.left-nav {
+		padding-left: 20px;	
+	}
+	
+	.right-nav {
+		max-width: none;
+		margin: 0;
+	}
+
+	.right-nav ul li {
+		font-size: 1.3em;
+		margin-right: 50px;
+		font-weight: 600;
+	}
+	
+	.profile-section {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 87px;
+	}
+	
+	.profile {
+		padding-top: 75px;
+		margin: 0;
+		margin-left: 100px;
+	}
+	
+	.profile p{
+		font-size: 1.3em;
+	}
+	
+	.profile h1 {
+		font-size: 2em;
+		
+	}
+	
+	.profile h2 {
+		margin-bottom: 10px;
+	}
+	
+	.profile-pic {
+		margin-right: 100px;
+	}
+	
+	.profile-pic img {
+		min-width: 300px;
+	}
+}

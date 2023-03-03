@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Facebook Post Clone</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+		<style>
+
+			p{
+				margin-bottom: 0;
+				margin-top: 0;
+				color: white;
+			}
+
+			.facebook-post{
+				width: 400px;
+				padding-top: 10px;
+				padding-left: 5px;
+				padding-right: 5px;
+				padding-bottom: 5px;
+				font-family: questrial;
+				background-color: #3b5998;
+				border-radius: 10px;
+			}
+
+			.name{
+				font-weight: 600;
+				font-size: 15px;
+				margin-bottom: 4px;
+				cursor: pointer;
+			}
+
+			.date{
+				font-size: 13px;
+				cursor: pointer;
+			}
+
+			.profile-grid{
+				display: grid;
+				grid-template-columns: 40px 1fr 30px;
+				column-gap: 8px;
+			}
+
+			.profile-pic{
+				width: 100%;
+				border-radius: 50%;
+				cursor: pointer;
+			}
+
+			.post-picture{
+				width: 100%;
+			}
+
+			.dots{
+				font-size: 40px;
+				color: white;
+				line-height: 5px;
+				cursor: pointer;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<div class="facebook-post">
+			<div class="profile-grid">
+				<div>
+					<img class="profile-pic" src="img/profile-pic.jpg">
+				</div>
+				<div class="profile-info">
+					<p class="name">Angelo Clint Lumio Orbillo</p>
+					<p class="date">November 8 &#183</p>
+				</div>
+				<div>
+					<div class="dots">...</div>
+				</div>
+				<br>	
+			</div>
+				
+			<div>
+				<img class="post-picture" src="https://i.pinimg.com/736x/dd/19/29/dd192990fc14f0b9b3ec49823455b34c.jpg" alt="This is an anime meme">
+			</div>
+		</div>
+	</body>
+</html>

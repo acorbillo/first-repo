@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Grid Practice</title>
+
+		<style>
+			.fb-add-friend{
+				width: 200px;
+			}
+			p{
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+			.profile-pic{
+				width: 200px;
+				height: 201.05px;
+				border-width: 1px;
+				border-style: solid;
+				border-color: rgb(192, 192, 192);
+				border-radius: 2px;
+				box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+			}
+			.name{
+				font-weight: bold;
+				font-family: Arial;
+				margin-top: 10px;
+				margin-bottom: 5px;
+			}
+			.mutual-info{
+				display: grid;
+				grid-template-columns: 35px 1fr;
+				column-gap: 10px;
+				margin-bottom: 8px;
+			}
+			.mutual-friend{
+				width: 35px;
+				height: 35px;
+				border-radius: 50%;
+				margin-bottom: 8px;
+			}
+			.mutual{
+				color: rgb(96, 96, 96);
+				margin-top: 7px;
+			}
+			.add-button{
+				background-color: rgb(35, 116, 225);
+				color: white;
+				width: 110px;
+				height: 50px;
+				font-size: 15;
+				font-weight: bold;
+				border-radius: 10px;
+				border: none;
+				cursor: pointer;
+			}
+			.info{
+				width: 191px;
+				padding-left: 8px;
+				border-width: 1px;
+				border-style: solid;
+				border-color: rgb(192, 192, 192);
+				border-radius: 2px;
+				box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+				margin-top: -5px;
+			}
+
+			.fb-clone-add{
+				display: grid;
+				grid-template-columns: 200px 200px 200px 200px;
+				column-gap: 20px;
+			}
+
+		</style>
+	</head>
+
+	<body style="padding-top: 50px; padding-bottom: 100px;">
+
+		<div style="
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			column-gap: 20px;
+			row-gap: 50%;
+		">
+			<div style="
+				background-color: lightblue;
+				height: 100px;
+			">
+				div 1
+			</div>
+
+			<div style="
+				background-color: lightpink;
+				height: 100px
+			">
+				div 2
+			</div>
+
+			<div style="
+				background-color: lightblue;
+				height: 100px
+			">
+				div 3
+			</div>
+
+			<div style="
+				background-color: lightpink;
+				height: 100px
+			">
+				div 4
+			</div>
+
+			<div style="
+				background-color: lightblue;
+				height: 100px
+			">
+				div 5
+			</div>
+
+			<div style="
+				background-color: lightpink;
+				height: 100px
+			">
+				div 6
+			</div>
+		</div>
+
+		<br><br><br><br><br><br><br>
+
+		<div class="fb-clone-add">
+			<div class="fb-add-friend">
+				<div>
+					<img class="profile-pic" src="img/profile-pic.jpg">
+				</div>
+				<div class="info">
+					<p class="name">Angelo Clint Orbillo</p>
+					<div class="mutual-info">
+						<img class="mutual-friend" src="img/cat.jpg">
+						<p class="mutual">1 mutual friend</p>
+						<button class="add-button">Add Friend</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="fb-add-friend">
+				<div>
+					<img class="profile-pic" src="img/dog.jpg">
+				</div>
+				<div class="info">
+					<p class="name">Angelo Clint Orbillo</p>
+					<div class="mutual-info">
+						<img class="mutual-friend" src="img/cat.jpg">
+						<p class="mutual">1 mutual friend</p>
+						<button class="add-button">Add Friend</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="fb-add-friend">
+				<div>
+					<img class="profile-pic" src="img/cat.jpg">
+				</div>
+				<div class="info">
+					<p class="name">Angelo Clint Orbillo</p>
+					<div class="mutual-info">
+						<img class="mutual-friend" src="img/rabbit.jpg">
+						<p class="mutual">1 mutual friend</p>
+						<button class="add-button">Add Friend</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="fb-add-friend">
+				<div>
+					<img class="profile-pic" src="img/rabbit.jpg">
+				</div>
+				<div class="info">
+					<p class="name">Angelo Clint Orbillo</p>
+					<div class="mutual-info">
+						<img class="mutual-friend" src="img/dog.jpg">
+						<p class="mutual">1 mutual friend</p>
+						<button class="add-button">Add Friend</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

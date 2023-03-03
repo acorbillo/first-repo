@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: grey;
+}
+
+#display{
+	height: 100px;
+	width: 300px;
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+	font-size: 1em;
+	font-weight: 600;
+	padding: 0 12px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#keyboard{
+	height: 180px;
+	width: 300px;
+	margin: 0 auto;
+	display: grid;
+	grid-row-gap: 0;
+	grid-column-gap: 0;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.top1-buttons, .top2-buttons, .bottom-buttons, .bottom2-buttons {
+	display: flex;
+
+}
+
+.button {
+	flex: 1;
+	height: 44px;
+}
+
+#space{
+	flex: 2;
+}
+
+#backspace{
+	flex: 1;
+}

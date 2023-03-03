@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div></div>
+		<input id="display" type="text">
+
+		<div id="keyboard">
+			<div class="top1-buttons">
+				<button class="button" onclick="displayLetter('q')">q</button>
+				<button class="button" onclick="displayLetter('w')">w</button>
+				<button class="button" onclick="displayLetter('e')">e</button>
+				<button class="button" onclick="displayLetter('r')">r</button>
+				<button class="button" onclick="displayLetter('t')">t</button>
+				<button class="button" onclick="displayLetter('y')">y</button>
+				<button class="button" onclick="displayLetter('u')">u</button>
+				<button class="button" onclick="displayLetter('i')">i</button>
+				<button class="button" onclick="displayLetter('o')">o</button>
+				<button class="button" onclick="displayLetter('p')">p</button>
+			</div>
+
+			<div class="top2-buttons">
+				<button class="button" onclick="displayLetter('a')">a</button>
+				<button class="button" onclick="displayLetter('s')">s</button>
+				<button class="button" onclick="displayLetter('d')">d</button>
+				<button class="button" onclick="displayLetter('f')">f</button>
+				<button class="button" onclick="displayLetter('g')">g</button>
+				<button class="button" onclick="displayLetter('h')">h</button>
+				<button class="button" onclick="displayLetter('j')">j</button>
+				<button class="button" onclick="displayLetter('k')">k</button>
+				<button class="button" onclick="displayLetter('l')">l</button>
+			</div>
+
+			<div class="bottom-buttons">
+				<button class="button" onclick="displayLetter('z')">z</button>
+				<button class="button" onclick="displayLetter('x')">x</button>
+				<button class="button" onclick="displayLetter('c')">c</button>
+				<button class="button" onclick="displayLetter('v')">v</button>
+				<button class="button" onclick="displayLetter('b')">b</button>
+				<button class="button" onclick="displayLetter('n')">n</button>
+				<button class="button" onclick="displayLetter('m')">m</button>
+			</div>
+
+			<div class="bottom2-buttons">
+				<button id="space" class="button" onclick="displayLetter(' ')">space</button>
+				<button id="backspace" class="button" onclick="clearLast()">backspace</button>
+		 </div>
+		</div>
+
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

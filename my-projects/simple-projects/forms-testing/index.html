@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Forms</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Registration Form</h1>
+		
+		<div class="text-form">
+			<form>
+				<label for="FirstName" class="text-label">First Name</label>
+				<input type="text" placeholder="First name..." id="FirstName" name="FirstName" class="text-input" required>
+				<label for="LastName" class="text-label">Last Name</label>
+				<input type="text" placeholder="Last name..." id="LastName" name="LastName" class="text-input" required>
+				<label for="Email" class="text-label">Email</label>
+				<input type="email" placeholder="Email..." id="Email" name="Email" class="text-input" required>
+				<label for="password" class="text-label">Create Password</label>
+				<input type="password" placeholder="Password" id="password" name="password" class="text-input" required>
+				
+				<p class="question">Level of Mastery</p>
+				<input type="radio" id="Beginner" name="level" value="Beginner" required>
+				<label for="Beginner" class="mastery">Beginner</label><br>
+				<input type="radio" id="Intermediate" name="level" value="Intermediate" required>
+				<label for="Intermediate" class="mastery">Intermediate</label><br>
+				<input type="radio" id="Expert" name="level" value="Expert" required>
+				<label for="Expert" class="mastery">Expert</label><br>	
+				
+				<input type="checkbox" id="agree" name="agree" value="agree" class="agree" required>
+				<label for="agree">I agree to the <a href="#">Terms and Conditions</a></label><br>
+				
+				<input class="submit" type="submit" value="Register">
+			</form>
+		</div>
+	</body>
+</html>

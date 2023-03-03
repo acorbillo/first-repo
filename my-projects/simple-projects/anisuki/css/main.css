@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  background-color: #121212;
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a{
+  color: yellowgreen;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  opacity: .8;
+}
+
+.btn1{
+  background-color: yellowgreen;
+  color: white;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 10px;
+}

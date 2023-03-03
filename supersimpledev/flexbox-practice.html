@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>flexbox practice</title>
+	</head>
+	<body>
+		<div style="
+			display: flex;
+			flex-direction: row;
+		">
+			<div style="background-color: skyblue;">div 1 text</div>
+			<div style="background-color: lightpink;">div 2<p>text</p></div>
+		</div>
+
+		<div style="
+			display: flex;
+			flex-direction: row;
+			margin-top: 10px;
+		">
+			<div style="background-color: skyblue; width: 100px;">100px</div>
+			<div style="background-color: lightpink; flex: 1;">flex 1</div>
+			<div style="background-color: skyblue; flex: 2;">flex 2</div>
+		</div>
+			<!--this is a comment-->
+		<div style="
+			display: flex;
+			flex-direction: row;
+			margin-top: 10px;
+			height: 70px;
+			border-width: 1px;
+			border-style: solid;
+			border-color: gray;
+			justify-content: center;
+			">
+			<div style="background-color: skyblue; width: 100px;">100px</div>
+			<div style="background-color: lightpink; width: 100px;">100 px</div>
+			<div style="background-color: skyblue; width: 100px;">100px</div>
+		</div>
+
+		<div style="
+			display: flex;
+			flex-direction: row;
+			margin-top: 10px;
+			height: 70px;
+			border-width: 1px;
+			border-style: solid;
+			border-color: gray;
+			justify-content: space-between;
+			">
+			<!--justify-content values are: start, end,center, space-between-->
+
+			<div style="background-color: skyblue; width: 100px;">100px</div>
+			<div style="background-color: lightpink; width: 100px;">100 px</div>
+			<div style="background-color: skyblue; width: 100px;">100px</div>
+		</div>
+
+				<div style="
+			display: flex;
+			flex-direction: row;
+			margin-top: 10px;
+			height: 70px;
+			border-width: 1px;
+			border-style: solid;
+			border-color: gray;
+			justify-content: space-between;
+			align-items: center;
+			">
+			 <!--align items values are: start, end, center, stretch-->
+			<div style="background-color: skyblue; width: 100px;">100px</div>
+			<div style="background-color: lightpink; width: 100px;">100 px</div>
+			<div style="background-color: skyblue; width: 100px;">100px</div>
+		</div>
+	</body>
+</html>
